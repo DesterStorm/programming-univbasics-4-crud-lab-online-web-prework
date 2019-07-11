@@ -7,12 +7,18 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+<<<<<<< HEAD
   add_element_to_end_of_array = create_an_array
   add_element_to_end_of_array << "arrays!"
+=======
+  array = ["wow", "I", "am", "really", "learning"]
+  element << "arrays!"
+>>>>>>> 33e8d338f79e2d59f918beded56b01722d8f4f95
 end
 
 
 def add_element_to_start_of_array(array, element)
+<<<<<<< HEAD
   add_element_to_start_of_array = create_an_array
   add_element_to_start_of_array.unshift("wow")
 end
@@ -45,4 +51,7 @@ end
 def update_element_from_index(array, element, index)
   update_element_from_index = ["wow", "I", "am", "really", "learning", "arrays!"]
   update_element_from_index[4] = "totally"
+=======
+  add_element_to_end_of_array.unshift("wow")
+>>>>>>> 33e8d338f79e2d59f918beded56b01722d8f4f95
 end
